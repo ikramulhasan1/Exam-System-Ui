@@ -26,6 +26,16 @@
     font-weight: 600;
 }
 
+.exploreBtn {
+    background-color: var(--navyBlue) !important;
+    border-radius: 3px !important;
+    color: var(--buttonColor) !important;
+    border: none !important;
+    padding: 5px 10px !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .navLink {
     font-size: 16px !important;
     color: #5d688a !important;
@@ -52,7 +62,7 @@
 }
 
 .subheading {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     color: #6a6a6a;
     margin: 16px 0px;
@@ -69,4 +79,21 @@
 .fss {
     font-size: var(--smallFont);
     color: #707280;
+}
+
+.sectionMargin {
+    margin-top: 100px !important;
+}
+
+
+.testimonialText {
+    font-size: var(--smallFont);
+}
+
+.testimonialAuthor {
+    font-size: 16px !important;
+}
+
+.quotationColor {
+    color: var(--navyBlue) !important;
 }
