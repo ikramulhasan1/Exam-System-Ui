@@ -1,3 +1,39 @@
 .grad {
     background-image: linear-gradient(#FFFFFF, #F9F7F9) !important;
 }
+
+
+:root {
+    --navyBlue: #461E5C;
+    --navyBlueHover: #461D5C;
+    --buttonColor: #FFFFFF;
+    --normalFontSize: 20px !important;
+}
+
+
+.btn {
+    background-color: var(--navyBlue) !important;
+    border-radius: 0px !important;
+    color: var(--buttonColor) !important;
+    border: none !important;
+    padding: 8px 15px !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navLink {
+    font-size: 16px !important;
+    color: #5d688a !important;
+    font-weight: 500 !important;
+}
+
+.pText {
+    font-size: var(--normalFontSize);
+    color: rgb(73, 73, 73);
+}
+
+.heading {
+    color: #461D5C;
+    font-size: 42px;
+    font-weight: 700;
+}
