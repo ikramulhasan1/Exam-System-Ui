@@ -94,6 +94,10 @@
     font-size: 16px !important;
 }
 
-.quotationColor {
+.navyBlueColor {
     color: var(--navyBlue) !important;
+}
+
+.navyBlueBgColor {
+    background-color: var(--navyBlue) !important;
 }
