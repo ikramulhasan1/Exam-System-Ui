@@ -101,3 +101,8 @@
 .navyBlueBgColor {
     background-color: var(--navyBlue) !important;
 }
+
+.featuresIcon {
+    font-size: 40px !important;
+    color: var(--navyBlue) !important;
+}
