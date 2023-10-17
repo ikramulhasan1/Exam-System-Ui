@@ -7,7 +7,12 @@
     --navyBlue: #461E5C;
     --navyBlueHover: #461D5C;
     --buttonColor: #FFFFFF;
+
     --normalFontSize: 20px !important;
+    --smallFont: 18px !important;
+
+    --color1: #ffa05c;
+    --color2: #E56B1F;
 }
 
 
@@ -36,4 +41,32 @@
     color: #461D5C;
     font-size: 42px;
     font-weight: 700;
+}
+
+/* FEATURES */
+.feature {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: var(--color1) !important;
+    margin: 80px 0px 0px 0px !important;
+}
+
+.subheading {
+    font-size: 20px;
+    font-weight: 400;
+    color: #6a6a6a;
+    margin: 16px 0px;
+}
+
+.smallheading {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: var(--navyBlue) !important;
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+}
+
+.fss {
+    font-size: var(--smallFont);
+    color: #707280;
 }
